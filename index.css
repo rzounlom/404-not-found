@@ -7,8 +7,98 @@
 .container {
   height: 100vh;
   width: 100vw;
-  background-color: pink;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 24px;
+}
+
+section {
+  height: 50%;
+  width: 100%;
+}
+
+.image-container,
+.details-container {
+  height: 100%;
+  width: 100%;
+  /* border: 0.1px solid lightgray; */
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container > img {
+  height: 238px;
+  width: 286px;
+}
+
+.image-container > h3.image-heading {
+  font-family: Inconsolata;
+  font-size: 24px;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 15px;
+  top: 20px;
+  left: 24px;
+  color: #333333;
+}
+
+.details-container {
+  font-family: "Space Mono";
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.details-container > .details-header {
+  font-size: 43px;
+}
+
+.details-container > .details-message {
+  color: #4f4f4f;
+  font-size: 17px;
+}
+
+.details-container > button {
+  width: 175px;
+  height: 40px;
+  background: #333333;
+  font-size: 10px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .image-container > img {
+    height: 539px;
+    width: 414px;
+  }
+
+  .details-container > .details-header {
+    font-size: 70px;
+    padding: 5% 0;
+  }
+
+  .details-container > .details-message {
+    font-size: 24px;
+  }
+
+  .details-container > button {
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .details-container {
+    padding: 13% 0;
+  }
 }
