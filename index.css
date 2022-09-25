@@ -87,12 +87,19 @@ Details container section
   font-size: 17px;
 }
 
-.details-container > button {
+.details-container > a > button {
   width: 175px;
   height: 40px;
-  background: #333333;
+  background-color: #333333;
   font-size: 10px;
   color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.details-container > a > button:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  color: black;
 }
 
 /* 
@@ -103,7 +110,7 @@ Media queries
 
 /* 
 -------------
-Tablet media queries
+Tablet queries
 -------------
  */
 @media (min-width: 768px) {
@@ -128,18 +135,12 @@ Tablet media queries
   }
 }
 
-/* 
----------------------
-Desktop media queries
----------------------
-*/
-
 @media (min-width: 1400px) {
   .container {
     flex-direction: row;
   }
 
   .details-container {
-    padding: 13% 0;
+    padding: 10% 0;
   }
 }
