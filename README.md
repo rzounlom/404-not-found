@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://zounmedia.github.io/404-not-found/">
+    <a href="https://rzounlom.github.io/404-not-found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/ZounMedia/404-not-found">
+    <a href="https://github.com/rzounlom/404-not-found">
       Solution
     </a>
     <span> | </span>
@@ -35,14 +35,10 @@
 
 ![screenshot](./assets/img/demo.png)
 
-- My task was to create a 404 page based on the devChallenges.io challenge
-- It was nice to take a step back and get back to the basics of HTML and CSS
+- devChallenges.io 404-not-found challenge
+- It was nice to take a step back and get back to the fundamentals of HTML and CSS
 - I learned that it's always good to practice the fundamentals
 - Thoughts: take your time and just keep building things!
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
@@ -52,4 +48,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [ZounMedia](https://github.com/ZounMedia)
+- GitHub [rzounlom](https://github.com/rzounlom)
